@@ -78,7 +78,7 @@ nav ul li {
     margin: 0;
 }
 
-.shopNow {
+.shopText {
     font-size: 0.8em;
     color: #007185;
     font-weight: bold;
@@ -104,3 +104,26 @@ nav ul li {
     object-fit: cover;
 }
 
+.imgContainer {
+    text-align: center;
+    height: 100%;
+    margin: 0 30px;
+}
+
+.imageFull {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+}
+
+.textImageFull {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.textImageFull p {
+    display: inline;
+}
