@@ -127,3 +127,27 @@ nav ul li {
 .textImageFull p {
     display: inline;
 }
+
+#linkContainer {
+    height: 35px;
+    background-color: #364759;
+    color: #EAEDED;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a {
+    color: #EAEDED;
+    font-weight: bold !important;
+}
+
+#footer {
+    height: 170px;
+    background-color: #222F3E;
+    text-align: center;
+}
+
+#logoFooter {
+    height: 60px;
+    margin-top: 60px;
+}
