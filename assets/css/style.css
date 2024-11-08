@@ -17,15 +17,13 @@ html body {
 #navContainer {
     height: 35px;
     background-color: #364759;
-}
-
-nav, ul, li {
     color: #EAEDED;
-    display: inline;
 }
 
-li {
-    margin: 100px;
+nav ul li {
+    display: inline-block;
+    margin: 10px 0 0 20px;
+    color: #EAEDED;
 }
 
 #callToAction {
@@ -35,8 +33,28 @@ li {
     box-sizing: border-box;
     margin: 30px;
     height: 35px;
+    line-height: 35px;
 }
 
-p {
-    margin: auto;
+#backgroundHoliday {
+    text-align: center;
+    height: 200px;
+    margin: 30px;
+    background-image: url(/assets/images/bg-image.png);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    color: #EAEDED;
+    font-weight: bold;
+}
+
+#backgroundHoliday > h1 {
+    padding-top: 70px;
+    font-size: 2em;
+}
+
+#backgroundHoliday > p {
+    padding-top: 25px;
+    font-size: 1.2em;
 }
