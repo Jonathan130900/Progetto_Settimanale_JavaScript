@@ -70,9 +70,15 @@ const cars = [
     color: 'black',
     trims: ['life', 'style', 'r-line'],
   },
-]
+];
 
-console.log('-------------------------------------------------')
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = 'IG928OP';
+};
+
+console.log(cars);
+
+console.log('-------------------------------------------------');
 
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
@@ -80,16 +86,37 @@ console.log('-------------------------------------------------')
 */
 console.log('ESERCIZIO 6')
 
-console.log('-------------------------------------------------')
+const newCar = {
+  brand: 'Fiat',
+  model: 'Punto',
+  color: 'gray',
+  trims: ['style', 'GT', 'city'],
+};
+
+cars.push(newCar);
+
+for (let i = 0; i < cars.length; i++) {
+  cars[i].trims.pop();
+};
+
+console.log(cars);
+
+console.log('-------------------------------------------------');
 
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
 console.log('ESERCIZIO 7')
 
-const justTrims = []
+const justTrims = [];
 
-console.log('-------------------------------------------------')
+for (let i = 0; i < cars.length; i++) {
+  justTrims.push(cars[i].trims[0]);
+};
+
+console.log(justTrims);
+
+console.log('-------------------------------------------------');
 
 /* ESERCIZIO 8
     Cicla l'array "cars" e costruisci un if/else statament per mostrare due diversi messaggi in console. Se la prima lettera della proprietà
@@ -97,7 +124,15 @@ console.log('-------------------------------------------------')
 */
 console.log('ESERCIZIO 8')
 
-console.log('-------------------------------------------------')
+for (let i = 0; i < cars.length; i++) {
+  if (cars[i].color[0] === 'b') { // Controlla se la prima lettera è "b"
+    console.log('Fizz');
+  } else {
+    console.log('Buzz');
+  }
+};
+
+console.log('-------------------------------------------------');
 
 /* ESERCIZIO 9
     Utilizza un ciclo while per stampare in console i valori del seguente array numerico fino al raggiungimento del numero 32.
