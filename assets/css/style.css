@@ -1,5 +1,6 @@
-body {
+html body {
     background-color: #EAEDED;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #logoContainer {
@@ -11,4 +12,31 @@ body {
   height: 40px;
   padding-left: 30px;
   padding-top: 8px;
+}
+
+#navContainer {
+    height: 35px;
+    background-color: #364759;
+}
+
+nav, ul, li {
+    color: #EAEDED;
+    display: inline;
+}
+
+li {
+    margin: 100px;
+}
+
+#callToAction {
+    background-color: #F56600;
+    color: #EAEDED;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px;
+    height: 35px;
+}
+
+p {
+    margin: auto;
 }
