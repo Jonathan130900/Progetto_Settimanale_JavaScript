@@ -1,0 +1,14 @@
+body {
+    background-color: #EAEDED;
+}
+
+#logoContainer {
+    background-color: #222F3E;
+    height: 60px;
+}
+
+#logo {
+  height: 40px;
+  padding-left: 30px;
+  padding-top: 8px;
+}
